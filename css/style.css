@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.googlemap {
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
+.marginbottom {
+	margin-bottom:20px;
+}
+
+/*COLORS*/
+
+/*
+Red Color #AB150B
+Gray #737373
+Yellow #EEA31C
+*/
+
+body {
+	color:#737373;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6, legend {
+	color:#AB150B;
+	font-family:'deliciousroman';
+	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.6);
+}
+
+a:link, a:visited {
+	color:#AB150B;
+}
+
+a:hover, a:active, a:focus, top-bar-section li.current a {
+	color:#EEA31C;
+}
+
+hr {
+	border:solid 5px #EEA31C;
+}
+
+.side-nav li.divider {
+    border-top: 1px solid #EEA31C;
+    height: 0;
+    list-style: none outside none;
+    padding: 0;
+}
+
+.side-nav li a:link, .side-nav li a:visited {
+    color: #AB150B;
+    display: block;
+}
+
+.side-nav li a:hover, .side-nav li a:active, .side-nav li a:focus {
+    color: #EEA31C;
+    display: block;
+}
+
+/*p {
+	background-color:#000;
+	color:#FFF;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+}*/
+
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+	margin-bottom:20px;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'deliciousroman';
+    src: url('../delicious-roman-webfont.eot');
+    src: url('../delicious-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../delicious-roman-webfont.woff') format('woff'),
+         url('../delicious-roman-webfont.ttf') format('truetype'),
+         url('../delicious-roman-webfont.svg#deliciousroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+table {
+	margin-top:20px;
+	width: 100%;
+}
+
+.margin-bottom {
+	margin-bottom:20px;
+}
+
+.top-bar-section a:hover, .top-bar-section a:active, .top-bar-section a:focus {
+	color:#EEA31C;	
+}
+
+.sendbtn {
+	padding:5px 10px;
+	background-color:#EEA31C;
+	border: 1px solid #EEA31C;
+	-webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+}
+
+.sendbtn:hover, .sendbtn:active, .sendbtn:focus {
+		background-color:#AB150B;
+		border: 1px solid #EEA31C;
+}
+
+
+

@@ -1,0 +1,56 @@
+.tooltip, .arrow:after {
+    background: none repeat scroll 0 0 black;
+    border: 2px solid white;
+}
+.tooltip {
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 7px black;
+    color: white;
+    display: inline-block;
+    font-family: "Helvetica Neue",Sans-Serif;
+    font-size: 14px;
+    font-size-adjust: none;
+    font-stretch: condensed;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 20px;
+    opacity: 0;
+    padding: 10px 20px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.arrow {
+    bottom: -16px;
+    height: 16px;
+    left: 50%;
+    margin-left: -35px;
+    overflow: hidden;
+    position: absolute;
+    width: 70px;
+}
+.arrow:after {
+    box-shadow: 6px 5px 9px -9px black, 5px 6px 9px -9px black;
+    content: "";
+    height: 25px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: rotate(45deg);
+    width: 25px;
+}
+.tooltip.active {
+    margin-top: 5px;
+    opacity: 1;
+    transition: all 0.2s ease 0s;
+}
+.tooltip.out {
+    margin-top: -20px;
+    opacity: 0;
+}
